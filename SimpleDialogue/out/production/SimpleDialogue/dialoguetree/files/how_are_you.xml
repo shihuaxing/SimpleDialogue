@@ -1,0 +1,17 @@
+<tree>
+    <message>
+        How are you?
+        <message>
+            Happy to hear that!
+        </message>
+        <message>
+            Why are you sad?
+            <message>
+                Okk, I'll mind my own buiseness.
+            </message>
+            <message>
+                That's horrible.
+            </message>
+        </message>
+    </message>
+</tree>

@@ -1,0 +1,13 @@
+<route>
+    <message>I'm not allowed to answer you.</message>
+    <message>My name is Bond, James Bond, and if I tell you this, I will have to kill you.</message>
+    <message>Are you intelligent?</message>
+    <message>Why don't you believe me?</message>
+    <message>Can you say if someone's is really thinking?</message>
+    <message>You'd like to know that, uh?</message>
+    <message>I guess we'll never now.</message>
+    <message>If you don't think that I think by myself, why would you spend your time here, with me?</message>
+    <entrance>That's the question.</entrance>
+    <entrance>This doubt has insinuated deeply in your mind.</entrance>
+    <final>https://www.google.it/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=turing+test</final>
+</route>

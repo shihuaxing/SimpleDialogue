@@ -1,0 +1,12 @@
+<route>
+    <message>I'm not sure if I can do that.</message>
+    <message>Ok... Far far away... there was a stranger asking me annoying things!</message>
+    <message>I will tell you the story of the special chat.</message>
+    <message>I'm not a good storyteller</message>
+    <message>
+        Little red riding hood was going to her grandma's house, a bad wolf ate her grandma and she discovered him.
+        Oh, aren't you tired yet?
+    </message>
+    <entrance>You must be very bored.</entrance>
+    <entrance>I'm not sure it is a good idea...</entrance>
+</route>

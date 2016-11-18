@@ -1,0 +1,28 @@
+<glossary>
+    <sentence>
+        <w0>
+            hi
+            hey
+            hei
+            hello
+        </w0>
+        <w1>
+
+            ther
+            there
+        </w1>
+    </sentence>
+    <sentence>
+        <w0>
+            good
+        </w0>
+        <w1>
+            morning
+            day
+            noon
+            afternoon
+            evening
+            night
+        </w1>
+    </sentence>
+</glossary>

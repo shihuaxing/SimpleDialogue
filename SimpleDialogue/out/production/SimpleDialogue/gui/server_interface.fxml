@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="Pane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Server">
+   <children>
+      <Pane layoutX="10.0" layoutY="14.0" prefHeight="135.0" prefWidth="580.0">
+         <children>
+            <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello administrator!">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ready to cheat people with our software, making them believe they're chatting with humans?" wrappingWidth="495.13671875" />
+         </children>
+      </Pane>
+      <Pane layoutX="14.0" layoutY="186.0" prefHeight="200.0" prefWidth="580.0">
+         <children>
+            <Button fx:id="start_stop" layoutX="14.0" layoutY="100.0" mnemonicParsing="false" onMouseClicked="#start_stop" prefHeight="25.0" prefWidth="56.0" text="Start" />
+            <TextArea fx:id="info_area" layoutX="103.0" prefHeight="200.0" prefWidth="458.0" />
+         </children>
+      </Pane>
+   </children>
+</fx:root>

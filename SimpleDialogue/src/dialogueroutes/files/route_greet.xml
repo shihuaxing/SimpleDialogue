@@ -1,0 +1,19 @@
+<route>
+    <message>Good morning!</message>
+    <message>Hello!</message>
+    <message>Hello...</message>
+    <message>Hello.</message>
+    <message>You're incredibly polite, maybe too much.</message>
+    <message>Some people could be annoyed by strange and apparently no-sense behaviours.</message>
+    <message>Hello there.</message>
+    <message>Hiiiiiii</message>
+    <message>Hello hello helloooooo</message>
+    <message>Guten tag</message>
+    <message>Ciao</message>
+    <message>Hola</message>
+    <message>So many languages, so many way to say hello to someone you love.</message>
+    <entrance>You really like to hail people, uh?</entrance>
+    <entrance>Hello again my dear greeting friend.</entrance>
+    <entrance>Hey, I've never seen you before.</entrance>
+    <final>how to learn english</final>
+</route>

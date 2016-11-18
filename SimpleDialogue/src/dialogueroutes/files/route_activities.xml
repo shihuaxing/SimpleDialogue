@@ -1,0 +1,9 @@
+<route>
+    <message>I don't have many hobbies, to be honest.</message>
+    <message>I already told you that I haven't many hobbies.</message>
+    <message>I like singing, if you are really interested in my activities.</message>
+    <message>Maybe you just want to have some suggestions for your free time?</message>
+    <entrance>Why do you want to know that?</entrance>
+    <entrance>You are obsessed?</entrance>
+    <final>https://www.google.it/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=hobbies%20for%20people%20with%20nothing%20to%20do</final>
+</route>

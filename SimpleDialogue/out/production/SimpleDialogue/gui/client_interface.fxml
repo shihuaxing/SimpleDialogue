@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Client">
+   <children>
+      <Pane layoutX="14.0" layoutY="15.0" prefHeight="375.0" prefWidth="285.0">
+         <children>
+            <Text layoutX="14.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chat with me!" wrappingWidth="233.13671875">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This service is special:" wrappingWidth="263.326171875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-7 days on 7, 24 hours on 24." />
+            <Text layoutX="14.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-fast connection with skilled chatters" />
+            <Text layoutX="14.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-possibly allow strange behaviour of your PC" />
+            <Text layoutX="14.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-that's a lot of fun" />
+            <Text layoutX="14.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enjoy!">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="IP_field" layoutX="14.0" layoutY="249.0" prefHeight="25.0" prefWidth="211.0" />
+            <Text layoutX="16.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IP of the server you want to connect to:" />
+            <Button fx:id="connect" layoutX="14.0" layoutY="332.0" mnemonicParsing="false" onMouseClicked="#connect" text="Connect" />
+            <Text fx:id="error_field" fill="RED" layoutX="14.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="211.0" />
+            <Text fx:id="info_field" fill="#4de43c" layoutX="14.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="211.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="300.0" layoutY="14.0" prefHeight="375.0" prefWidth="285.0">
+         <children>
+            <TextField fx:id="message_field" layoutX="43.0" layoutY="287.0" prefHeight="25.0" prefWidth="200.0" />
+            <Button fx:id="send" layoutX="43.0" layoutY="312.0" mnemonicParsing="false" onMouseClicked="#send" prefHeight="25.0" prefWidth="200.0" text="Send" />
+            <TextArea fx:id="messages_area" layoutX="43.0" layoutY="9.0" prefHeight="278.0" prefWidth="200.0" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
